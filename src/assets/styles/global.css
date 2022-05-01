@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-VariableFont_wght.ttf')
+}
+
+@font-face {
+  font-family: 'Corinthia';
+  src: url(../fonts/Corinthia-Regular.ttf)
+}
+
+:root {
+  --background: #24253C;
+  --dark-blue: #1e2131;
+  --text-color: #c9c8c9;  
+}

@@ -1,0 +1,259 @@
+.main-container {
+    width: 100%;
+    height: 220vh;
+    background-color: #24253C;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Raleway';
+}
+
+.left-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.top-left-side {
+    margin-top: 40px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align:left;
+}
+
+.div {
+    width: 30vw;
+    height: 1px;
+    background-color: var(--text-color);
+    margin-top: 50px;
+}
+
+.phone-number {
+    color: var(--text-color);
+    font-family: 'Raleway';
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.phone, .house, .letter, .git, .linked {
+    color: var(--text-color);
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.address {
+    color: var(--text-color);
+    font-family: 'Raleway';
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.email {
+    color: var(--text-color);
+    font-family: 'Raleway';
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.icon-area {
+    width: 370px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.git {
+    font-size: 40px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+.linked{
+        font-size: 40px;
+        cursor: pointer;
+}
+
+.education-area {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align:left;
+    
+}
+
+.edu-heading, .about-heading, .job-heading {
+    color: var(--text-color);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 0.7;
+
+}
+
+.webbdev, .economy {
+    font-family: 'Raleway';
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 5px;
+    
+}
+
+.webdev-date, .economy-date {
+    color: var(--text-color);
+    margin-top: 0px;
+    font-size: 18px;
+    margin-bottom: 0px;
+
+}
+
+.edu-text, .economy-text, .job-text {
+width: 550px;
+letter-spacing: 2px;
+word-spacing: 6px;
+color: var(--text-color);
+font-family: 'Raleway';
+font-size: 22px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+text-align: left;
+line-height: 30px;
+}
+
+.economy-text-2 {
+width: 550px;
+letter-spacing: 2px;
+word-spacing: 6px;
+color: var(--text-color);
+font-family: 'Raleway';
+font-size: 22px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+text-align: left;
+line-height: 30px;
+margin-top: 0px;
+}
+
+.middle-left-side, .lower-left-side {
+    margin-top: 40px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.list-container {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-list, .right-list {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    padding-left: 0;
+}
+
+.right-list {
+    margin-left: 20px;
+}
+
+.list-item {
+    color: var(--text-color);
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    margin-bottom: 3px;
+}
+
+.about-text, .language-text, .others-text {
+    width: 550px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    color: var(--text-color);
+    font-family: 'Raleway';
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+
+
+.right-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.middle-right-side, .lower-right-side, .bottom-right-side {
+    margin-top: 40px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.others-heading, .language-heading, .references-heading {
+    color: var(--text-color);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.7;
+    font-size: 24px;
+}
+
+
+.divider {
+    margin-top: 80px;
+    margin-right: 40px;
+    width: 1px;
+    height: 190vh;
+    background-color: var(--text-color);
+}
+
+.div-2 {
+    width: 30vw;
+    height: 1px;
+    background-color: var(--text-color);
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+
+
+
+

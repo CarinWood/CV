@@ -77,6 +77,7 @@ const Main = () => {
       <section className="right-side">
        
         <section className="middle-right-side">
+          <div className="div-3"></div>
         <h1 className="job-heading">Anställningar</h1>
         <p className="job-text">
           Under min studietid på Handels arbetade jag extra med diverse servicejobb såsom 
@@ -95,7 +96,7 @@ const Main = () => {
        
         
         
-        <div className="div"></div>
+        <div className="div-4"></div>
         <h1 className="language-heading">SPRÅK</h1>
         <p className="language-text">Modersmål svenska
         <br/>

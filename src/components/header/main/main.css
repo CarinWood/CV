@@ -1,6 +1,6 @@
 .main-container {
     width: 100%;
-    height: 220vh;
+    height: 210vh;
     background-color: #24253C;
     display: flex;
     justify-content: center;
@@ -26,11 +26,16 @@
     text-align:left;
 }
 
-.div {
+.div, .div-4 {
     width: 30vw;
     height: 1px;
     background-color: var(--text-color);
     margin-top: 50px;
+}
+
+.div-4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .phone-number {
@@ -252,6 +257,65 @@ margin-top: 0px;
     margin-top: 0px;
     margin-bottom: 30px;
 
+}
+
+@media  (max-width: 882px) {
+    .main-container {
+        flex-direction: column;
+        position: relative;
+        height: auto;
+    }
+    .left-side {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .div, .div-4 {
+        width: 400px;
+    }
+
+    .div-2 {
+        width: 400px;
+    }
+
+    .div-3 {
+        width: 400px;
+        height: 1px;
+        background-color: var(--text-color);
+        margin-bottom: 25px;
+     
+    }
+
+    .divider {
+        visibility: hidden;
+    }
+
+    .right-side {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        top: 43.5%;
+       
+    }
+
+    .lower-left-side {
+             margin-bottom: 0px;
+    }
+
+    .middle-right-side {
+        margin-top: 0px;
+    }
+    
 }
 
 

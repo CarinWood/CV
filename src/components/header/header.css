@@ -22,7 +22,7 @@
   }
   
   .image-container {
-    width: 13%;
+    width: 10%;
     height: auto;
     margin-right: 100px;
   }
@@ -59,7 +59,7 @@
     color: var(--text-color);
   }
 
-  @media  (max-width: 882px) {
+  @media  (max-width: 1460px) {
       .header {
         height: 20vh;
       }
@@ -95,4 +95,33 @@
     
 
 
+  }
+
+  @media (max-width: 665px) {
+    .name {
+      margin-top: 65px;
+      font-size: 60px; 
+    }
+
+    .job-title {
+      font-size: 15px;
+    }
+
+    .image-container {
+      width: 20%;
+      margin-right: 20px;
+      position: unset;
+      z-index: 2;
+    } 
+
+  }
+
+  @media (max-width: 375px) {
+    .name {
+      font-size: 45px;
+    }
+    .job-title {
+      font-size: 12px;
+    }
+  
   }

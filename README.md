@@ -1,5 +1,5 @@
 # This is my online CV. 
-### Made for desktop and Tablets.
+### Made for desktop, tablets and phones.
 
 <img src="./src/assets/images/cvPreview.JPG" alt="cv pic" width="400"/>
 

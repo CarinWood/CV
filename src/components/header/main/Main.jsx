@@ -46,8 +46,8 @@ const Main = () => {
           <p className="economy">Ekonomie magisterexamen, Handelshögskolan Göteborg</p>
           <p className="economy-date">Examnensår: 2012</p>
           <p className="economy-text">Företagsekonomi, Nationalekonomi, statistik, juridik, ekonomisk historia</p> 
-          <p className="economy-text-2">kandidatuppsats inom marknadsföring
-          magisteruppsats inom externredovisning</p>
+          <p className="economy-text-2">Min kandidatuppsats behandlade marknadsföring
+           och min magisteruppsats externredovisning</p>
         </section>
         <section className="lower-left-side">
         <div className="div-2"></div>
@@ -55,8 +55,7 @@ const Main = () => {
         
           <p className="about-text">
             Jag studerar just nu Webbutveckling på Campus Mölndal. Jag är mycket driven
-            i mina studier och utmanar mig hela tiden att prestera mitt absolut bästa, vilket
-            även syns i mina betyg.
+            i mina studier och utmanar mig hela tiden att prestera mitt absolut bästa.
           </p>
           <p className="about-text">
             Roligast i utbildningen så här långt har varit att bygga webbsidor med
@@ -81,10 +80,10 @@ const Main = () => {
         <h1 className="job-heading">Anställningar</h1>
         <p className="job-text">
           Under min studietid på Handels arbetade jag extra med diverse servicejobb såsom 
-          restaurangbiträde på Liseberg, croupier på Casino Cosmopol och butiksbiträde på Åhléns.
+          restaurangbiträde på Liseberg, croupier på Casino Cosmopol och butikssäljare på Åhléns.
         </p>
         <p className="job-text">
-          Som utbildad civilekonom har jag provat på arbeten inom ekonomibranschen. Bland annat som bankadministratör på Nordea
+          Som utbildad civilekonom har arbetat på olika företag inom ekonomibranschen. Bland annat som bankadministratör på Nordea
           och ekonomiassistent på Akzo Nobel. 
         </p>
         <p className="job-text">Jag har de senaste åren varit anställd inom den offentliga sektorn.

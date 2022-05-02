@@ -43,6 +43,7 @@ const Main = () => {
           UX/UI, React.js, Node.js, Express.js, 
           API, MongoDB, RestAPI, Mongoose, SQL, NoSQL, MERN, frontend, backend, fullstack</p>
 
+      
           <p className="economy">Ekonomie magisterexamen, Handelshögskolan Göteborg</p>
           <p className="economy-date">Examnensår: 2012</p>
           <p className="economy-text">Företagsekonomi, Nationalekonomi, statistik, juridik, ekonomisk historia</p> 

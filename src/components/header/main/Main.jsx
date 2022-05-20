@@ -41,10 +41,10 @@ const Main = () => {
           <p className="webdev-date">Examensår: 2022 </p>
           <p className="edu-text">HTML, CSS, JavaScript, TypeScript, 
           UX/UI, React.js, Node.js, Express.js, 
-          API, MongoDB, RestAPI, Mongoose, SQL, NoSQL, MERN, frontend, backend, fullstack</p>
+          API, MongoDB, RestAPI, Mongoose, SQL, NoSQL, MERN</p>
 
       
-          <p className="economy">Ekonomie magisterexamen, Handelshögskolan Göteborg</p>
+          <p className="economy">Ekonomie magisterexamen<br/><span className="handels">Handelshögskolan Göteborg</span></p>
           <p className="economy-date">Examnensår: 2012</p>
           <p className="economy-text">Företagsekonomi, Nationalekonomi, statistik, juridik, ekonomisk historia</p> 
           <p className="economy-text-2">Min kandidatuppsats behandlade marknadsföring
@@ -92,7 +92,8 @@ const Main = () => {
         </p>
         <p className="job-text">Efter att ha arbetat en tid inom offentlig sektor kände jag att jag ville göra någonting helt annat.
         Jag kände att programmering var det rätta för mig då jag är analytiskt lagd och gillar problemlösning. Då vårt samhälle blir 
-        mer och mer digitaliserat känns det som att ett jobb inom it-branschen ligger helt rätt i tiden.</p>
+        mer och mer digitaliserat känns det som att ett jobb inom it-branschen ligger helt rätt i tiden.
+        </p>
        
         
         

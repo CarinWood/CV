@@ -1,6 +1,5 @@
 .main-container {
     width: 100%;
-    height: 210vh;
     background-color: #24253C;
     display: flex;
     justify-content: center;
@@ -14,6 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    padding-left: 66px;
 }
 
 .top-left-side {
@@ -83,7 +83,6 @@
 
 .git {
     font-size: 40px;
-    margin-right: 25px;
     cursor: pointer;
 }
 
@@ -91,6 +90,7 @@
 .linked{
         font-size: 40px;
         cursor: pointer;
+        margin-left: 25px;
 }
 
 .education-area {
@@ -118,8 +118,19 @@
     font-size: 23px;
     font-weight: 700;
     color: var(--text-color);
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;  
+}
+
+.economy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 28px;
+}
+
+.handels {
+    margin-left: 0px;
 }
 
 .webdev-date, .economy-date {
@@ -220,6 +231,10 @@ margin-top: 0px;
     justify-content: flex-start;   
 }
 
+.git {
+    margin-right: 0px;
+}
+
 .middle-right-side, .lower-right-side, .bottom-right-side {
     margin-top: 40px;
     width: 650px;
@@ -271,6 +286,7 @@ margin-top: 0px;
         justify-content: center;
         margin-bottom: 0px;
         padding-bottom: 0px;
+        padding-left: 0px;
     }
 
     .div, .div-4 {
@@ -280,6 +296,8 @@ margin-top: 0px;
     .div-2 {
         width: 400px;
     }
+
+    
 
     .div-3 {
         width: 400px;
@@ -301,10 +319,7 @@ margin-top: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
-        position: absolute;
-        top: 43.5%;
-       
+        justify-content: flex-start;  
     }
 
     .top-left-side {
@@ -317,102 +332,120 @@ margin-top: 0px;
 
     .middle-right-side {
         margin-top: 0px;
+       
+    }
+
+    .divider {
+        height: 0.1px;
     }
     
 }
 
 
-@media (max-width: 665px) {
-    .left-side {
-        width: 98%;
-    }
+
+@media (max-width: 709px) {
 
     .top-left-side {
-        margin-top: 0px;
-        width: 100%;
-        
-
+        margin-top: 10px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;     
     }
+
+    .phone, .house, .letter {
+        font-size: 20px;
+    }
+
+    .git, .linked {
+        font-size: 35px;
+    }
+
+
+    .git {
+        margin-right: 40px;
+    }
+
+   
 
     .phone-number, .address, .email {
-        font-size: 15px;
+        font-size: 13px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
     }
-    
-    .phone, .house, .letter, .git, .linked {
-        color: var(--text-color);
+   
+  
+    .economy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 24px;
+    }
+
+    .webbdev, .economy {
+        font-size: 20px;
+    }
+
+    .handels {
+        font-weight: 400;
         font-size: 18px;
-        margin-left: 20px;
+    }
+
+
+    .phone-number {
+        margin-top: 40px;
+    }
+
+    .linked {
+        margin-left: 5px;
+    }
+
+    .git {
+        margin-left: 0px;
     }
 
     .icon-area {
-        width: 90%;
+        width: 370px;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
-        margin-top: 30px;
-        padding-left: 40px;
-    }
-    
-    .git {
-        font-size: 40px;
-        margin-right: 30px;
-    }
-    
-    
-    .linked{
-            font-size: 40px;
+        margin-top: 40px;
     }
 
-    .div, .div-2, .div-3, .div-4 {
-        width: 50%;
-        margin-left: 25%;
-    }
-
-    .div-3  {
-        margin-top: 0px;
-        margin-bottom: 20px;
+    .div {
+        margin-left: 0px;
+        width: 62vw;
     }
 
     .middle-left-side {
+        width: 95%;
         margin-top: 40px;
-        width: 98%;
-        padding-left: 25px;
-    }
-
-    .edu-heading, .about-heading, .job-heading, .others-heading, .language-heading, .references-heading {
-        color: var(--text-color);
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        font-size: 18px;
-        font-weight: 600;
-        opacity: 0.7;
-    }
-
-    .job-heading {
-        margin-bottom: 0px;
-    }
-
-    
-
-    .webbdev, .economy {
-        font-size: 13px;
-        margin-bottom: 5px;  
-    }
-
-    .economy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding-left: 0px;
-        box-sizing: unset;
-   
     }
 
-  
+    .edu-text {
+        width: 95%;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 13px;
+        line-height: 28px;
+        text-align: center
+    }
 
-    .edu-text, .economy-text, .job-text {
+     .economy-text {
         width: 100%;
         letter-spacing: 1px;
         word-spacing: 2px;
         font-size: 13px;
-        line-height: 30px;
+        line-height: 28px;
+        text-align: center;
     }
 
     .economy-text-2 {
@@ -420,93 +453,135 @@ margin-top: 0px;
         letter-spacing: 1px;
         word-spacing: 2px;
         font-size: 13px;
-        line-height: 30px;
+        line-height: 28px;
         margin-top: 0px;
+        text-align: center;
         }
 
-       
-
-       
-
-        .middle-left-side, .lower-left-side {
-            width: 98%;
-            padding-left: 20px;
-          
-        }
-
-        .webdev-date, .economy-date {
-            color: var(--text-color);
-            margin-top: 0px;
-            font-size: 13px;
-            margin-bottom: 0px;
-        }
-
-        .about-text, .language-text, .others-text {
-            width: 100%;
-            letter-spacing: 1px;
-            word-spacing: 2px;
-            font-size: 13px;
-            line-height: 30px;
-            margin-top: 0px;
-        }
-
-        .right-side {
-            width: 98%;           
-        }
-        
-        .right-side {
-            margin-top: 0px;
+    .div-2 {
+            width: 62vw;
+            margin-bottom: 40px;
             margin-left: 0px;
-            width: 100%;
-            position: unset;
-          
+        }
+
+    .lower-left-side {
+            width: 95%;
+            padding-left: 0px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
            
         }
-        .middle-right-side, .lower-right-side, .bottom-right-side {
-            margin-top: 40px;
-            width: 100%;
-            padding-left: 20px;
-        }
 
-        .icon-area {
-            width: 90%;
+        .right-side {
             display: flex;
-            justify-content: flex-start;
+            flex-direction: column;
             align-items: center;
-            margin-top: 30px;
-            padding-left: 0px;
-        }
-        
-        .git {
-            font-size: 40px;
-            margin-right: 30px;
-        }
-        
-        
-        .linked{
-                font-size: 40px;
+            justify-content: center;
+            width: 100%;
         }
 
-        .divider {
-            position: absolute;
-            top: -10000%;
-            left: -1000%
+    .about-text {
+        text-align: center;
+        font-size: 13px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
         }
-            
+    
+    .div-3  {
+            width: 62vw;
+            margin-top: 0px;
+            margin-bottom: 40px;
+            margin-left: 0px;
+            align-self: center;
+        }
+
+    .middle-right-side {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+     
+        
+    }
+
+    .job-text {
+        text-align: center;
+        font-size: 13px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        width: 95%;
+        margin-left: 0px;
+
+    }
+
+    .div-4 {
+        width: 62vw;
+        margin-left: 0px;
+    }
+
+   .language-text {
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    word-spacing: 2px;  
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   }
+
+   .lower-right-side {
+    margin-top: 40px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
 }
 
-@media (max-width: 319px) {
-    .div-3  {
-        margin-top: 50px;
-        margin-bottom: 50px;
+    .others-text {
+        font-size: 13px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-right-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        padding-left: 0px;
+    }
+
+    .others-text {
+        font-size: 13px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
 
-    .economy {
-        text-align: left;
-        width: 100%;
-       
+    .about-text {
+        width: 95%;
     }
+
+    
 }
 
 

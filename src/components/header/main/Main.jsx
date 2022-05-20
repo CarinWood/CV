@@ -91,7 +91,7 @@ const Main = () => {
           Dels som handläggare på Försäkringskassan samt utredare och administratör på Polismyndigheten.
         </p>
         <p className="job-text">Efter att ha arbetat en tid inom offentlig sektor kände jag att jag ville göra någonting helt annat.
-        Jag kände att programmering var det rätta för mig då jag är analytiskt lagd och gillar problemlösning. Då vårt samhälle blir 
+        Jag kände att programmering var det rätta för mig då jag är analytiskt lagd och gillar problemlösning. Eftersom vårt samhälle blir 
         mer och mer digitaliserat känns det som att ett jobb inom it-branschen ligger helt rätt i tiden.
         </p>
        
